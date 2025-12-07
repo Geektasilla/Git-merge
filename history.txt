@@ -1,0 +1,16 @@
+  679  git add .
+  680  git commit -m "add home work"
+  681  git push -u origin main
+  682  git status
+  683  cd Desktop
+  684  git clone git@github.com:Geektasilla/Git-merge.git
+  685  cd Git-merge
+  686  git checkout -b feature
+  687  vi README.md
+  688  vi .gitignore
+  689  git add .
+  690  git commit -m "add changing in files README.md and .gitignore"
+  691  git push origin feature
+  692  git commit --amend
+  693  git checkout main
+  694  git merge feature

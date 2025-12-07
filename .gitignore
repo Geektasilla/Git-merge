@@ -27,7 +27,6 @@ debug/
 *.war
 *.ear
 *.tmp
-*.exe
 
 thumbs.db
 .DS_Store
